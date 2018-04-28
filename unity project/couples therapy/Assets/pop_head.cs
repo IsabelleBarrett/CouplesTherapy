@@ -22,6 +22,7 @@ public class pop_head : MonoBehaviour {
         MeshRenderer meshRenderer = head.GetComponent<MeshRenderer>();
         meshRenderer.materials = MaterialsToReplace;
         head.AddComponent<Rigidbody>();
-        head.GetComponent<Rigidbody>().velocity = (new Vector3(1,2,0));
+        //head.GetComponent<Rigidbody>().velocity = (new Vector3(1,2,0));
+        head.AddComponent<SphereCollider>();
     }
 }
