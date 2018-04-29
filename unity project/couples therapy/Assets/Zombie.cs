@@ -8,6 +8,7 @@ public class Zombie : MonoBehaviour {
 
     private float speed = 3f;
     public bool go = false;
+    private bool first = true;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +23,11 @@ public class Zombie : MonoBehaviour {
 
 
         var distance = Random.Range(100f, 200f);
+        if (first)
+        {
+            distance = 100f;
+            first = false;
+        }
 
         x = distance * Mathf.Sin(angle);
         z = distance * Mathf.Cos(angle);
