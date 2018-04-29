@@ -5,6 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour {
 
     public GameObject man;
+    public GameObject unicorn;
 
     private long timer = 0;
 
@@ -20,9 +21,17 @@ public class Spawner : MonoBehaviour {
 
         if(timer > 100)
         {
-            var local_man = Instantiate(man);
-            local_man.GetComponent<Zombie>().go = true;
-            local_man.SetActive(true);
+            var spawn = Instantiate(man);
+            var num = Random.Range(-1000f, 1000f);
+
+            if(num > 0)
+            {
+                spawn = Instantiate(unicorn);
+            }
+            
+            
+            spawn.GetComponent<Zombie>().go = true;
+            spawn.SetActive(true);
 
 
             timer = 0;
