@@ -7,12 +7,12 @@ public class pop_head : MonoBehaviour {
     public GameObject HeadToPop;
     public Material[] MaterialsToReplace;
 
-	// Use this for initialization
-	void Start () {
+    private void OnTriggerEnter(Collider other)
+    {
         PopHead(HeadToPop);
-	}
-	
+    }
 
+    // Use this for initialization
     private void PopHead(GameObject head){
         var skinnedRenderer = head.GetComponent<SkinnedMeshRenderer>();
         if(skinnedRenderer != null){

@@ -9,6 +9,7 @@ public class LightSaber : SteamVR_InteractableObject
     private float beamExtendSpeed = 0;
 
     private GameObject blade;
+    public CapsuleCollider bladeCollider;
 
     private Light light;
 
@@ -22,10 +23,12 @@ public class LightSaber : SteamVR_InteractableObject
         var sound = this.transform.Find("SaberStart").GetComponent<AudioSource>();
         sound.Play();
 
-         soundLoop = this.transform.Find("SaberLoop").GetComponent<AudioSource>();
+        soundLoop = this.transform.Find("SaberLoop").GetComponent<AudioSource>();
         soundLoop.PlayDelayed(0.5f);
 
         light.enabled = true;
+
+        bladeCollider.enabled = true;
     }
 
     public override void StopUsing(GameObject usingObject)
@@ -36,6 +39,8 @@ public class LightSaber : SteamVR_InteractableObject
         soundLoop.Stop();
         sound.Play();
         light.enabled = false;
+
+        bladeCollider.enabled = false;
     }
 
     protected override void Start()
