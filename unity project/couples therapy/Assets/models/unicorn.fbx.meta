@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 2fb0e5179fa0840c78a43d3a0e4dfc63
+timeCreated: 1524955852
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: def-biceps.L
+    100004: def-biceps.L_end
+    100006: def-biceps.R
+    100008: def-biceps.R_end
+    100010: DEF-kopytoprzod.L
+    100012: DEF-kopytoprzod.L_end
+    100014: DEF-kopytoprzod.R
+    100016: DEF-kopytoprzod.R_end
+    100018: "DEF-nadp\u0119cinowa.L"
+    100020: "DEF-nadp\u0119cinowa.R"
+    100022: DEF-ogon.001
+    100024: DEF-ogon.002
+    100026: DEF-ogon.002_end
+    100028: DEF-piszczelowa.L
+    100030: DEF-piszczelowa.R
+    100032: DEF-promieniowa.L
+    100034: DEF-promieniowa.R
+    100036: "DEF-p\u0119cinowa.L"
+    100038: "DEF-p\u0119cinowa.R"
+    100040: DEF-ramienna.L
+    100042: DEF-ramienna.R
+    100044: DEF-siodlo
+    100046: DEF-szyja.001
+    100048: DEF-szyja.002
+    100050: DEF-szyja.003
+    100052: DEF-szyja.004
+    100054: DEF-t-palec.001.L
+    100056: DEF-t-palec.001.R
+    100058: DEF-t-palec.002.L
+    100060: DEF-t-palec.002.L_end
+    100062: DEF-t-palec.002.R
+    100064: DEF-t-palec.002.R_end
+    100066: "DEF-t-\u015Br\xF3dstopia.L"
+    100068: "DEF-t-\u015Br\xF3dstopia.R"
+    100070: DEF-udowa.L
+    100072: DEF-udowa.R
+    100074: DEF-zad
+    100076: "DEF-\u0142eb"
+    100078: "DEF-\u0142eb_end"
+    100080: "def-\u0142opatka.L"
+    100082: "def-\u0142opatka.R"
+    100084: "DEF-\u017Cebra"
+    100086: horse_Armature
+    100088: ik-palec_pole.L
+    100090: ik-palec_pole.L_end
+    100092: ik-palec_pole.R
+    100094: ik-palec_pole.R_end
+    100096: ik-palec_przedni.L
+    100098: ik-palec_przedni.L_end
+    100100: ik-palec_przedni.R
+    100102: ik-palec_przedni.R_end
+    100104: ik-tyl.L
+    100106: ik-tyl.L_end
+    100108: ik-tyl.R
+    100110: ik-tyl.R_end
+    100112: "IK-\u0142eb"
+    100114: "IK-\u0142eb_end"
+    100116: "ik-\u0142okie\u0107.L"
+    100118: "ik-\u0142okie\u0107.L_end"
+    100120: "ik-\u0142okie\u0107.R"
+    100122: "ik-\u0142okie\u0107.R_end"
+    100124: kon
+    100126: kon.001
+    100128: ogon.IK
+    100130: ogon.IK_end
+    100132: Root
+    400000: //RootNode
+    400002: def-biceps.L
+    400004: def-biceps.L_end
+    400006: def-biceps.R
+    400008: def-biceps.R_end
+    400010: DEF-kopytoprzod.L
+    400012: DEF-kopytoprzod.L_end
+    400014: DEF-kopytoprzod.R
+    400016: DEF-kopytoprzod.R_end
+    400018: "DEF-nadp\u0119cinowa.L"
+    400020: "DEF-nadp\u0119cinowa.R"
+    400022: DEF-ogon.001
+    400024: DEF-ogon.002
+    400026: DEF-ogon.002_end
+    400028: DEF-piszczelowa.L
+    400030: DEF-piszczelowa.R
+    400032: DEF-promieniowa.L
+    400034: DEF-promieniowa.R
+    400036: "DEF-p\u0119cinowa.L"
+    400038: "DEF-p\u0119cinowa.R"
+    400040: DEF-ramienna.L
+    400042: DEF-ramienna.R
+    400044: DEF-siodlo
+    400046: DEF-szyja.001
+    400048: DEF-szyja.002
+    400050: DEF-szyja.003
+    400052: DEF-szyja.004
+    400054: DEF-t-palec.001.L
+    400056: DEF-t-palec.001.R
+    400058: DEF-t-palec.002.L
+    400060: DEF-t-palec.002.L_end
+    400062: DEF-t-palec.002.R
+    400064: DEF-t-palec.002.R_end
+    400066: "DEF-t-\u015Br\xF3dstopia.L"
+    400068: "DEF-t-\u015Br\xF3dstopia.R"
+    400070: DEF-udowa.L
+    400072: DEF-udowa.R
+    400074: DEF-zad
+    400076: "DEF-\u0142eb"
+    400078: "DEF-\u0142eb_end"
+    400080: "def-\u0142opatka.L"
+    400082: "def-\u0142opatka.R"
+    400084: "DEF-\u017Cebra"
+    400086: horse_Armature
+    400088: ik-palec_pole.L
+    400090: ik-palec_pole.L_end
+    400092: ik-palec_pole.R
+    400094: ik-palec_pole.R_end
+    400096: ik-palec_przedni.L
+    400098: ik-palec_przedni.L_end
+    400100: ik-palec_przedni.R
+    400102: ik-palec_przedni.R_end
+    400104: ik-tyl.L
+    400106: ik-tyl.L_end
+    400108: ik-tyl.R
+    400110: ik-tyl.R_end
+    400112: "IK-\u0142eb"
+    400114: "IK-\u0142eb_end"
+    400116: "ik-\u0142okie\u0107.L"
+    400118: "ik-\u0142okie\u0107.L_end"
+    400120: "ik-\u0142okie\u0107.R"
+    400122: "ik-\u0142okie\u0107.R_end"
+    400124: kon
+    400126: kon.001
+    400128: ogon.IK
+    400130: ogon.IK_end
+    400132: Root
+    2100000: Material.000
+    2100002: material_rogu.001
+    2100004: horse blood
+    2300000: //RootNode
+    2300002: kon
+    2300004: kon.001
+    3300000: //RootNode
+    3300002: kon
+    3300004: kon.001
+    4300000: kon
+    4300002: kon.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
