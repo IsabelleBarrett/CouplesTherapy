@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour {
         if(timer > 100)
         {
             var spawn = Instantiate(man);
-            var num = Random.Range(-1000f, 1000f);
+            var num = Random.Range(-1000f, 500f);
 
             if(num > 0)
             {
