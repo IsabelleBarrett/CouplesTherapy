@@ -5,11 +5,18 @@ using UnityEngine;
 public class pop_head : MonoBehaviour {
 
     public GameObject HeadToPop;
+    public GameObject bodyToKill;
+
     public Material[] MaterialsToReplace;
 
     private void OnTriggerEnter(Collider other)
     {
-        PopHead(HeadToPop);
+        if(other.tag == "sword")
+        {
+            PopHead(HeadToPop);
+            Destroy(bodyToKill, 0.4f);
+
+        }
     }
 
     // Use this for initialization
